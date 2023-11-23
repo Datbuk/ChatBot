@@ -50,7 +50,7 @@ v_corpus = tfidf_vector.fit_transform(corpus)
 
 # -------------------------------- STEAMLT DESIGN ---------------------------
 st.markdown("<h1 style = 'color: #39A7FF; text-align: center; font-family:montserrat'>Chat Bot Project</h1>",unsafe_allow_html=True)
-st.markdown("<h3 style = 'margin: -15px; color: #39A7FF; text-align: center; font-family:montserrat'>Chat Bot build by Datapsalm </h3>",unsafe_allow_html=True)
+st.markdown("<h3 style = 'margin: -15px; color: #39A7FF; text-align: center; font-family:montserrat'>Chat Bot build by Datbuk </h3>",unsafe_allow_html=True)
 
 
 st.markdown("<br></br>", unsafe_allow_html=True)
@@ -84,17 +84,17 @@ user_greeting = ["hi", "hello there", "hey", "hi there"]
 exit_word = ['bye', 'thanks bye', 'exit', 'goodbye']
 
 
-# print(f'\t\t\t\t\tWelcome To Orpheus ChatBot\n\n')
-# while True:
-#     user_q = input('Pls ask your mental illness related question: ')
-#     if user_q in user_greeting:
-#         print(random.choice(chatbot_greeting))
-#     elif user_q in exit_word:
-#         print('Thank you for your usage. Bye')
-#         break
-#     else:
-#         responses = response(user_q)
-#         print(f'ChatBot:  {responses}')
+print(f'\t\t\t\t\tWelcome To Orpheus ChatBot\n\n')
+while True:
+    user_q = input('Pls ask your mental illness related question: ')
+    if user_q in user_greeting:
+        print(random.choice(chatbot_greeting))
+    elif user_q in exit_word:
+        print('Thank you for your usage. Bye')
+        break
+    else:
+        responses = response(user_q)
+        print(f'ChatBot:  {responses}')
 
 
 # st.write(f'\t\t\t\t\tWelcome To Orpheus ChatBot\n\n')
