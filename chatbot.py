@@ -74,8 +74,8 @@ import random
 chatbot_greeting = [
     "Hello there, welcome to Orpheus Bot. pls ejoy your usage",
     "Hi user, This bot is created by oprheus, enjoy your usage",
-    "Hi hi, How you dey my nigga",
-    "Alaye mi, Abeg enjoy your usage",
+    # "Hi hi, How you dey my nigga",
+    # "Alaye mi, Abeg enjoy your usage",
     "Hey Hey, pls enjoy your usage"    
 ]
 
